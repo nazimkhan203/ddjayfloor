@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b3d91">
+<title>VKS Pine Drive – DDJAY Floors, Pataudi | Applications Open</title>
+<meta name="description" content="VKS Pine Drive by VK & Sons Buildwell Pvt. Ltd. – 32 acre DDJAY township, Sector 2 & 3, Pataudi. Licence No. 134 of 2025. Registration open till 26 Nov 2026.">
+<style>
+:root{
+  --blue:#0b3d91;
+  --blue-dark:#072a66;
+  --blue-light:#e8f0fb;
+  --orange:#ff7a00;
+  --orange-dark:#e56a00;
+  --ink:#1b2430;
+  --muted:#5a6676;
+  --line:#cfd9e8;
+  --white:#fff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:56px;-webkit-text-size-adjust:100%;text-size-adjust:100%;-webkit-tap-highlight-color:rgba(255,122,0,.2)}
+img{max-width:100%}
+body{font-family:"Segoe UI",Roboto,"Noto Sans","Noto Sans Devanagari",Arial,sans-serif;color:var(--ink);background:#f4f7fc;line-height:1.6}
+a{color:var(--blue);text-decoration:none;transition:.2s}
+@media(hover:hover){a:hover{color:var(--orange)}}
+.container{max-width:1160px;margin:0 auto;padding:0 18px}
+
+/* Top strip */
+.topbar{background:var(--blue-dark);color:#fff;font-size:13px}
+.topbar .container{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;padding-top:7px;padding-bottom:7px}
+.topbar a{color:#fff}
+@media(hover:hover){.topbar a:hover{color:var(--orange)}}
+
+/* Header */
+header.site{background:#fff;border-bottom:4px solid var(--orange)}
+.brand{display:flex;align-items:center;gap:14px;padding:14px 18px;flex-wrap:wrap}
+.logo{width:72px;height:auto;display:block;flex:none;mix-blend-mode:multiply}
+.brand h1{font-size:24px;color:var(--blue);line-height:1.2}
+.brand p{font-size:13px;color:var(--muted)}
+.brand .reg{margin-left:auto;text-align:right;font-size:12.5px;color:var(--muted)}
+.brand .reg b{color:var(--blue)}
+
+.licence-strip{background:var(--blue-light);border-top:1px solid var(--line);font-size:13.5px;color:var(--blue);font-weight:600;padding:7px 0}
+
+/* Nav */
+nav.main{background:var(--blue);position:sticky;top:0;z-index:50;box-shadow:0 2px 6px rgba(0,0,0,.18)}
+nav.main ul{list-style:none;display:flex;flex-wrap:wrap}
+nav.main a{display:block;color:#fff;padding:13px 18px;font-weight:600;font-size:15px;border-right:1px solid rgba(255,255,255,.15)}
+@media(hover:hover){nav.main a:hover,nav.main a.cta{background:var(--orange);color:#fff}}
+nav.main a.cta{margin-left:auto;border-right:0}
+@media(hover:hover){nav.main a.cta:hover{background:var(--orange-dark)}}
+
+/* Notice marquee */
+.notice{background:#fff7ec;border-bottom:1px solid #ffd9a8;font-size:14px;color:#8a4500}
+.notice .container{display:flex;gap:12px;align-items:center;padding-top:8px;padding-bottom:8px}
+.notice .tag{background:var(--orange);color:#fff;padding:2px 10px;font-weight:700;font-size:12px;border-radius:3px;white-space:nowrap}
+.ticker{flex:1;min-width:0;overflow:hidden;white-space:nowrap}
+.ticker span{display:inline-block;padding-left:100%;animation:tick 32s linear infinite}
+@keyframes tick{to{transform:translateX(-100%)}}
+@media(prefers-reduced-motion:reduce){.ticker{white-space:normal}.ticker span{animation:none;padding-left:0}}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,var(--blue-dark),var(--blue) 60%,#1558c0);color:#fff;padding:54px 0 60px}
+.hero .grid{display:grid;grid-template-columns:1.4fr 1fr;gap:34px;align-items:center}
+.badge{display:inline-block;background:var(--orange);color:#fff;font-weight:700;padding:5px 14px;border-radius:3px;font-size:14px;margin-bottom:14px}
+.hero h2{font-size:40px;line-height:1.15;margin-bottom:10px}
+.hero h2 span{color:#ffb766}
+.hero p.lead{font-size:18px;opacity:.95;margin-bottom:22px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px}
+.chips span{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);padding:6px 12px;border-radius:3px;font-size:14px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;min-height:44px;padding:13px 26px;font-weight:700;border-radius:3px;border:2px solid var(--orange);background:var(--orange);color:#fff;font-size:16px;cursor:pointer;transition:.2s}
+@media(hover:hover){.btn:hover{background:#fff;color:var(--orange);transform:translateY(-2px)}}
+.btn:active{transform:scale(.97)}
+.btn.ghost{background:transparent;border-color:#fff;color:#fff}
+@media(hover:hover){.btn.ghost:hover{background:var(--orange);border-color:var(--orange);color:#fff}}
+
+.countdown-card{background:#fff;color:var(--ink);border-top:6px solid var(--orange);border-radius:4px;padding:22px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.countdown-card h3{color:var(--blue);font-size:17px;margin-bottom:4px}
+.countdown-card small{color:var(--muted)}
+.timer{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:14px 0}
+.timer div{background:var(--blue-light);border:1px solid var(--line);text-align:center;padding:10px 4px;border-radius:3px}
+.timer b{display:block;font-size:28px;color:var(--blue)}
+.timer span{font-size:12px;color:var(--muted)}
+.countdown-card .fee{background:#fff7ec;border-left:4px solid var(--orange);padding:9px 12px;font-size:14px}
+
+/* Sections */
+section{padding:56px 0}
+section.alt{background:#fff}
+.sec-title{margin-bottom:28px}
+.sec-title h2{font-size:28px;color:var(--blue);display:inline-block;padding-bottom:8px;border-bottom:4px solid var(--orange)}
+.sec-title p{color:var(--muted);margin-top:8px}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-top:4px solid var(--blue);padding:22px;border-radius:3px;transition:.25s}
+@media(hover:hover){.card:hover{border-top-color:var(--orange);transform:translateY(-5px);box-shadow:0 12px 26px rgba(11,61,145,.15)}}
+.card .ico{font-size:30px;margin-bottom:8px}
+.card h3{color:var(--blue);margin-bottom:6px;font-size:18px;transition:.2s}
+@media(hover:hover){.card:hover h3{color:var(--orange)}}
+.card p{font-size:15px;color:var(--muted)}
+
+/* Dates */
+.timeline{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.tl{background:#fff;border:1px solid var(--line);border-left:6px solid var(--blue);padding:18px 20px;transition:.25s}
+@media(hover:hover){.tl:hover{border-left-color:var(--orange);background:#fffaf4}}
+.tl small{color:var(--muted);text-transform:uppercase;letter-spacing:.5px;font-size:12px}
+.tl h3{color:var(--blue);font-size:21px}
+@media(hover:hover){.tl:hover h3{color:var(--orange)}}
+
+/* Tables */
+.table-wrap{overflow-x:auto;border:1px solid var(--line);background:#fff}
+table{width:100%;border-collapse:collapse;min-width:520px}
+th{background:var(--blue);color:#fff;text-align:left;padding:13px 16px;font-size:15px}
+td{padding:14px 16px;border-top:1px solid var(--line);font-size:16px}
+tbody tr{transition:.2s}
+@media(hover:hover){tbody tr:hover{background:var(--orange);color:#fff}}
+@media(hover:hover){tbody tr:hover td b,tbody tr:hover td small{color:#fff}}
+td b{color:var(--blue)}
+.note{margin-top:14px;font-size:14px;color:var(--muted)}
+.note li{margin-left:18px;margin-bottom:4px}
+
+/* Payment steps */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0;border:1px solid var(--line);background:#fff}
+.step{padding:24px 18px;text-align:center;border-right:1px solid var(--line);transition:.25s}
+.step:last-child{border-right:0}
+.step .pct{font-size:40px;font-weight:800;color:var(--blue);transition:.25s}
+.step p{font-size:15px;color:var(--muted)}
+@media(hover:hover){.step:hover{background:var(--orange)}}
+@media(hover:hover){.step:hover .pct,.step:hover p{color:#fff}}
+
+/* Calculator */
+.calc{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.panel{background:#fff;border:1px solid var(--line);padding:24px;border-radius:3px}
+.panel h3{color:var(--blue);margin-bottom:12px}
+label{display:block;font-weight:600;font-size:14px;margin:12px 0 5px;color:var(--ink)}
+select,input[type=text],input[type=tel]{width:100%;padding:12px;border:1px solid #9fb2d0;border-radius:3px;font-size:16px;font-family:inherit;background:#fff}
+select:focus,input:focus{outline:2px solid var(--orange);border-color:var(--orange)}
+.check{display:flex;gap:10px;align-items:flex-start;margin-top:12px;font-size:14px}
+.res{margin-top:16px;border-top:2px dashed var(--line);padding-top:12px}
+.res div{display:flex;justify-content:space-between;padding:5px 0;font-size:15px}
+.res .tot{font-weight:800;color:var(--blue);font-size:18px;border-top:1px solid var(--line);margin-top:6px;padding-top:9px}
+
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:860px){.frow{grid-template-columns:1fr}}
+input[type=email]{width:100%;padding:12px;border:1px solid #9fb2d0;border-radius:3px;font-size:16px;font-family:inherit}
+input[type=checkbox]{width:20px;height:20px;flex:none}
+#a_msg.ok{color:#116b2d;font-weight:700}
+#a_msg.err{color:#b42318;font-weight:700}
+
+/* Popup */
+.modal{position:fixed;inset:0;z-index:100;background:rgba(7,42,102,.75);display:flex;align-items:flex-start;justify-content:center;overflow-y:auto;padding:24px 14px}
+.modal[hidden]{display:none}
+.modal-box{background:#fff;width:100%;max-width:720px;border-top:6px solid var(--orange);border-radius:4px;padding:26px 26px 22px;position:relative;margin:auto;box-shadow:0 20px 50px rgba(0,0,0,.4)}
+.modal-box h2{color:var(--blue);font-size:24px}
+.submit-row{margin-top:16px}
+.modal-sub{color:var(--muted);font-size:14px;margin-bottom:6px}
+.modal-x{position:absolute;right:12px;top:8px;background:none;border:0;font-size:32px;line-height:1;color:var(--blue);cursor:pointer;padding:4px 10px;transition:.2s}
+@media(hover:hover){.modal-x:hover{color:var(--orange)}}
+body.modal-open{overflow:hidden}
+
+/* Docs list */
+.list{list-style:none}
+.list li{padding:10px 0 10px 30px;border-bottom:1px solid var(--line);position:relative;transition:.2s}
+.list li::before{content:"✔";position:absolute;left:0;color:var(--blue);font-weight:700;transition:.2s}
+@media(hover:hover){.list li:hover{color:var(--orange);padding-left:36px}}
+@media(hover:hover){.list li:hover::before{color:var(--orange)}}
+
+/* Amenities */
+.amen{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px}
+.amen div{background:#fff;border:1px solid var(--line);padding:18px 14px;text-align:center;font-weight:600;color:var(--blue);transition:.25s;border-radius:3px}
+.amen div span{display:block;font-size:30px;margin-bottom:6px}
+@media(hover:hover){.amen div:hover{background:var(--orange);color:#fff;border-color:var(--orange);transform:translateY(-4px)}}
+
+/* Contact */
+.contact{background:var(--blue);color:#fff}
+.contact .sec-title h2{color:#fff}
+.contact .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.contact .box{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);padding:22px;border-radius:3px;transition:.25s}
+@media(hover:hover){.contact .box:hover{background:var(--orange);border-color:var(--orange)}}
+.contact .box h3{font-size:16px;margin-bottom:6px}
+.contact .box a{color:#fff;font-weight:700;font-size:20px;word-break:break-word}
+@media(hover:hover){.contact .box a:hover{text-decoration:underline}}
+
+/* Footer */
+footer{background:var(--blue-dark);color:#c7d3eb;font-size:13px;padding:24px 0}
+footer .disc{background:rgba(255,255,255,.07);border-left:4px solid var(--orange);padding:12px 14px;margin-bottom:14px}
+footer a{color:#fff}
+@media(hover:hover){footer a:hover{color:var(--orange)}}
+
+/* Floating call */
+.float{position:fixed;right:16px;bottom:16px;z-index:60;background:var(--orange);color:#fff;padding:13px 20px;border-radius:40px;font-weight:700;box-shadow:0 6px 18px rgba(0,0,0,.3);border:2px solid var(--orange)}
+@media(hover:hover){.float:hover{background:#fff;color:var(--orange)}}
+
+@media(max-width:860px){
+  .hero .grid,.calc{grid-template-columns:1fr}
+  .hero h2{font-size:30px}
+  .brand .reg{margin-left:0;text-align:left}
+  .brand{padding-left:18px;padding-right:18px}
+  nav.main a{padding:11px 12px;font-size:14px}
+  nav.main a.cta{margin-left:0}
+  .step{border-right:0;border-bottom:1px solid var(--line)}
+}
+
+/* ===== Mobile (phones) ===== */
+@media(max-width:640px){
+  body{font-size:15px}
+  .container{padding:0 14px}
+  .topbar{font-size:12px}
+  .topbar .container{justify-content:center;text-align:center}
+  .brand{padding:12px 14px;gap:12px}
+  .brand h1{font-size:19px}
+  .brand p{font-size:12.5px}
+  .brand .reg{flex-basis:100%;margin-top:2px;padding-top:8px;border-top:1px dashed var(--line)}
+  .licence-strip{font-size:12px}
+  nav.main .container{padding:0}
+  nav.main ul{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  nav.main ul::-webkit-scrollbar{display:none}
+  nav.main li{flex:none}
+  nav.main a{white-space:nowrap;min-height:46px;display:flex;align-items:center}
+  .notice{font-size:13px}
+  .hero{padding:30px 0 36px}
+  .hero .grid{gap:24px}
+  .hero h2{font-size:26px}
+  .hero p.lead{font-size:16px;margin-bottom:18px}
+  .badge{font-size:13px}
+  .chips{gap:8px;margin-bottom:20px}
+  .chips span{font-size:13px;padding:5px 10px}
+  .btns .btn{flex:1 1 100%;text-align:center}
+  .countdown-card{padding:18px}
+  .timer{gap:6px}
+  .timer b{font-size:24px}
+  section{padding:34px 0}
+  .sec-title{margin-bottom:20px}
+  .sec-title h2{font-size:22px}
+  .cards{gap:14px}
+  .card,.panel{padding:18px}
+  .tl{padding:16px}
+  .tl h3{font-size:19px}
+  /* price table -> stacked cards */
+  table{min-width:0}
+  thead{position:absolute;left:-9999px}
+  table,tbody,tr,td{display:block;width:100%}
+  tr{padding:8px 0;border-top:1px solid var(--line)}
+  tr:first-child{border-top:0}
+  td{display:flex;justify-content:space-between;gap:14px;text-align:right;border:0;padding:6px 14px;font-size:15px}
+  td::before{content:attr(data-label);flex:none;font-weight:600;color:var(--muted);text-align:left}
+  /* payment steps -> compact rows */
+  .step{display:flex;align-items:center;gap:14px;text-align:left;padding:14px 16px}
+  .step:last-child{border-bottom:0}
+  .step .pct{font-size:28px;min-width:62px}
+  .panel .btn,.modal-box .btn{width:100%;text-align:center}
+  .amen{grid-template-columns:repeat(2,1fr);gap:10px}
+  .amen div{padding:14px 8px;font-size:14px}
+  .amen div span{font-size:26px}
+  .contact .box a{font-size:18px}
+  /* application popup -> full screen sheet */
+  .modal{padding:0;align-items:stretch}
+  .modal-box{max-width:none;min-height:100%;border-radius:0;margin:0;padding:22px 16px 0}
+  .submit-row{position:sticky;bottom:0;z-index:2;margin:0 -16px;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line);box-shadow:0 -4px 12px rgba(0,0,0,.08)}
+  .modal-box h2{font-size:20px;padding-right:40px}
+  .modal-x{right:2px;top:2px;font-size:36px;min-width:46px;min-height:46px}
+  /* floating call button -> full-width bar, footer leaves room for it */
+  .float{right:14px;left:auto;bottom:calc(14px + env(safe-area-inset-bottom));padding:11px 16px;font-size:14px;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+  footer{padding-bottom:76px}
+}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="container">
+    <span>📋 Licence No. 134 of 2025 &nbsp;|&nbsp; HARERA: RC/REP/HARERA/GGM/979/711/2025/82</span>
+    <span>📞 <a href="tel:+919911999981">99119 99981</a></span>
+  </div>
+</div>
+
+<header class="site">
+  <div class="container brand">
+       <img src="Images/logo-small.webp" alt="Haryana Residential Floors Scheme logo" class="logo" width="72" height="82" fetchpriority="high">
+    <div>
+      <h1>Haryana Residential Floors</h1>
+      <p>DDJAY Residential Floors, Pataudi</p>
+    </div>
+    <div class="reg">
+      <div><b>DDJAY Township</b> · 32 Acre · NH-352W</div>
+      <div>Sector 2 &amp; 3, Pataudi</div>
+    </div>
+  </div>
+  <div class="licence-strip">
+    <div class="container">Licensed under Deen Dayal Jan Awas Yojana (DDJAY) &nbsp;·&nbsp; Licence No. 134 of 2025 &nbsp;·&nbsp; </div>
+  </div>
+</header>
+
+<nav class="main">
+  <div class="container">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#dates">Important Dates</a></li>
+      <li><a href="#floors">Floors &amp; Price</a></li>
+      <li><a href="#payment">Payment Plan</a></li>
+      <li><a href="#apply">How to Apply</a></li>
+      <li><a href="#amenities">Amenities</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li style="margin-left:auto"><a class="cta" href="#apply-form">Apply Online ➜</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="notice">
+  <div class="container">
+    <span class="tag">NEW</span>
+    <div class="ticker"><span>DDJAY Floors — Applications Ab Open! &nbsp;•&nbsp; Last Date: 26 Nov 2026 (Thursday) &nbsp;•&nbsp; Lucky Draw &amp; Allotment: 27 Nov 2026 (Friday) &nbsp;•&nbsp; Application Fee ₹25,000 — Allotment na hone par 100% refundable</span></div>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container grid">
+    <div>
+      <span class="badge">🏡 DDJAY Floors — Applications Ab Open!</span>
+      <h2>Haryana Residential Floors <span>Pataudi</span></h2>
+      <p class="lead">Pataudi mein 32 acre ka DDJAY township, NH-352W frontage par. 1099 Sq. Ft. floors, easy payment plan aur 1.5 acre club house ke saath.</p>
+      <div class="chips">
+        <span>📍 Sector 2 &amp; 3, Pataudi</span>
+        <span>🚗 Dwarka Expressway ~15 min</span>
+        <span>🚗 KMP ~5 min</span>
+        <span>🏦 HDFC, SBI &amp; leading banks</span>
+      </div>
+      <div class="btns">
+        <a class="btn" href="#apply-form">Apply Now</a>
+        <a class="btn ghost" href="tel:+919911999981">📞 Call 99119 99981</a>
+      </div>
+    </div>
+
+    <div class="countdown-card">
+      <h3>Registration band hone mein bacha samay</h3>
+      <small>Last Date: 26 Nov 2026 (Thursday)</small>
+      <div class="timer" id="timer">
+        <div><b id="d">--</b><span>Din</span></div>
+        <div><b id="h">--</b><span>Ghante</span></div>
+        <div><b id="m">--</b><span>Minute</span></div>
+        <div><b id="s">--</b><span>Second</span></div>
+      </div>
+      <div class="fee">📝 Application Fee <b>₹25,000</b> — Allotment na hone par <b>100% refundable</b></div>
+    </div>
+  </div>
+</section>
+
+<!-- QUICK FACTS -->
+<section class="alt">
+  <div class="container">
+    <div class="sec-title"><h2>Project Highlights</h2></div>
+    <div class="cards">
+      <div class="card"><div class="ico">🏗️</div><h3>32 Acre DDJAY Township</h3><p>NH-352W frontage par planned township, Sector 2 &amp; 3, Pataudi.</p></div>
+      <div class="card"><div class="ico">📋</div><h3>Licensed &amp; RERA Registered</h3><p>Licence No. 134 of 2025. HARERA: RC/REP/HARERA/GGM/979/711/2025/82.</p></div>
+      <div class="card"><div class="ico">🚗</div><h3>Excellent Connectivity</h3><p>Dwarka Expressway ~15 min aur KMP ~5 min ki doori par.</p></div>
+      <div class="card"><div class="ico">🏦</div><h3>Home Loan Available</h3><p>HDFC, SBI aur sabhi leading banks se home loan ki suvidha.</p></div>
+    </div>
+    <p class="note">✅ <b>HARERA ki website par registration khud verify karein.</b></p>
+  </div>
+</section>
+
+<!-- DATES -->
+<section id="dates">
+  <div class="container">
+    <div class="sec-title"><h2>🗓️ Important Dates</h2></div>
+    <div class="timeline">
+      <div class="tl"><small>Registration</small><h3>Abhi chalu hai</h3></div>
+      <div class="tl"><small>Last Date</small><h3>26 Nov 2026 (Thursday)</h3></div>
+      <div class="tl"><small>Lucky Draw &amp; Allotment</small><h3>27 Nov 2026 (Friday)</h3></div>
+    </div>
+  </div>
+</section>
+
+<!-- FLOORS -->
+<section class="alt" id="floors">
+  <div class="container">
+    <div class="sec-title"><h2>🏠 Floor Options (1099 Sq. Ft.)</h2></div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Floor</th><th>Size</th><th>Price</th><th>Highlights</th></tr></thead>
+        <tbody>
+          <tr><td data-label="Floor"><b>1st &amp; 2nd Floor</b></td><td data-label="Size">1099 Sq. Ft.</td><td data-label="Price"><b>₹1.05 Crore</b></td><td data-label="Highlights">GST 5% as applicable</td></tr>
+          <tr><td data-label="Floor"><b>3rd &amp; 4th Floor</b></td><td data-label="Size">1099 Sq. Ft.</td><td data-label="Price"><b>₹1.15 Crore</b></td><td data-label="Highlights">50% terrace rights ke saath · GST 5% as applicable</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ul class="note">
+      <li>GST 5% as applicable.</li>
+      <li>Reserved category ko general price par <b>2.5% discount</b>.</li>
+    </ul>
+
+    <div class="calc" style="margin-top:30px">
+      <div class="panel">
+        <h3>💰 Price Estimator</h3>
+        <label for="floor">Floor chunein</label>
+        <select id="floor">
+          <option value="10500000">1st &amp; 2nd Floor — ₹1.05 Cr</option>
+          <option value="11500000">3rd &amp; 4th Floor — ₹1.15 Cr</option>
+        </select>
+        <div class="check"><input type="checkbox" id="resv"><label for="resv" style="margin:0;font-weight:400">Reserved category (2.5% discount)</label></div>
+        <div class="res">
+          <div><span>Base Price</span><span id="r1">—</span></div>
+          <div><span>Discount</span><span id="r2">—</span></div>
+          <div><span>GST @5%</span><span id="r3">—</span></div>
+          <div class="tot"><span>Approx. Total</span><span id="r4">—</span></div>
+        </div>
+        <p class="note">*Sirf anumaan ke liye. Final rate ke liye sales team se sampark karein.</p>
+      </div>
+      <div class="panel">
+        <h3>🏦 Home Loan</h3>
+        <p>HDFC, SBI aur sabhi leading banks se home loan available hai.</p>
+        <ul class="list" style="margin-top:12px">
+          <li>Easy documentation support</li>
+          <li>Leading banks ke saath tie-up</li>
+          <li>Loan details ke liye call karein: <a href="tel:+919911999981"><b>99119 99981</b></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PAYMENT -->
+<section id="payment">
+  <div class="container">
+    <div class="sec-title"><h2>💰 Easy Payment Plan</h2></div>
+    <div class="steps">
+      <div class="step"><div class="pct">10%</div><p>Booking par</p></div>
+      <div class="step"><div class="pct">30%</div><p>30 din ke andar</p></div>
+      <div class="step"><div class="pct">20%</div><p>Superstructure complete hone par</p></div>
+      <div class="step"><div class="pct">30%</div><p>OC ke application par</p></div>
+	<div class="step"><div class="pct">10%</div><p>Possession ki offer par</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- APPLICATION FORM (popup) -->
+<div class="modal" id="applyModal" role="dialog" aria-modal="true" aria-labelledby="applyTitle" hidden>
+  <div class="modal-box">
+    <button type="button" class="modal-x" id="applyClose" aria-label="Band karein">&times;</button>
+    <h2 id="applyTitle">📝 Application Form</h2>
+    <p class="modal-sub">Form bharein, hamari team aapse sampark karke aage ki process batayegi.</p>
+    <form id="af" onsubmit="return submitApply(event)">
+        <div class="frow">
+          <div><label for="a_name">Poora Naam *</label><input type="text" id="a_name" autocomplete="name" required minlength="2" maxlength="80" placeholder="Aapka poora naam"></div>
+          <div><label for="a_phone">Mobile Number *</label><input type="tel" id="a_phone" inputmode="numeric" autocomplete="tel-national" required pattern="[6-9][0-9]{9}" maxlength="10" placeholder="10 digit mobile number"></div>
+        </div>
+        <div class="frow">
+          <div><label for="a_email">Email</label><input type="email" id="a_email" autocomplete="email" maxlength="100" placeholder="email@example.com"></div>
+          <div><label for="a_city">Sheher</label><input type="text" id="a_city" autocomplete="address-level2" maxlength="60" placeholder="Aap kahan rehte hain"></div>
+        </div>
+        <div class="frow">
+          <div><label for="a_floor">Floor Preference *</label>
+            <select id="a_floor" required>
+              <option value="">-- Chunein --</option>
+              <option>1st &amp; 2nd Floor — ₹1.05 Cr</option>
+              <option>3rd &amp; 4th Floor — ₹1.15 Cr (50% terrace rights)</option>
+            </select></div>
+          <div><label for="a_cat">Category *</label>
+            <select id="a_cat" required>
+              <option value="">-- Chunein --</option>
+              <option>General</option>
+              <option>Reserved (2.5% discount)</option>
+            </select></div>
+        </div>
+        <div class="check"><input type="checkbox" id="a_ok" required><label for="a_ok" style="margin:0;font-weight:400">Main apni jaankari is project ke sambandh mein sampark karne ke liye dene ki sahmati deta/deti hoon. *</label></div>
+        <input type="text" id="a_hp" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <p class="note" id="a_msg">Is form mein koi payment ya ID document nahi maanga jaata. Application fee aur KYC ki process hamari team sampark karke batayegi.</p>
+        <p class="submit-row"><button class="btn" type="submit" id="a_btn">Application Submit Karein</button></p>
+      </form>
+  </div>
+</div>
+
+<!-- APPLY -->
+<section class="alt" id="apply">
+  <div class="container">
+    <div class="sec-title"><h2>📝 How to Apply</h2></div>
+    <div class="calc">
+      <div class="panel">
+        <h3>Application Fee: ₹25,000</h3>
+        <p>Allotment na hone par <b>100% refundable</b>.</p>
+        <ul class="list" style="margin-top:12px">
+          <li>Apply karte waqt <b>certificate ya ID card</b> saath rakhein.</li>
+          <li>Application complete hone ke baad <b>KYC zaroor bhejein</b>.</li>
+          <li>Last date: <b>26 Nov 2026</b> · Lucky draw: <b>27 Nov 2026</b>.</li>
+        </ul>
+        <p style="margin-top:18px"><a class="btn" href="#apply-form">📝 Apply Form Bharein</a></p>
+      </div>
+      <div class="panel">
+        <h3>📞 Call Back Request</h3>
+        <p style="font-size:14px;color:var(--muted)">Apna number bhejein, hamari team aapse sampark karegi.</p>
+        <form id="cb" onsubmit="return sendWA(event)">
+          <label for="nm">Naam</label>
+          <input type="text" id="nm" autocomplete="name" required placeholder="Aapka naam">
+          <label for="ph">Mobile Number</label>
+          <input type="tel" id="ph" inputmode="numeric" autocomplete="tel-national" maxlength="10" required pattern="[0-9]{10}" placeholder="10 digit mobile number">
+          <input type="text" id="hp" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+          <p style="margin-top:16px"><button class="btn" type="submit">Request Call Back</button></p>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AMENITIES -->
+<section id="amenities">
+  <div class="container">
+    <div class="sec-title"><h2>🌳 Amenities</h2></div>
+    <div class="amen">
+      <div><span>🏛️</span>1.5 Acre Club House</div>
+      <div><span>🏊</span>Swimming Pool</div>
+      <div><span>🏋️</span>Gym</div>
+      <div><span>🌿</span>Landscaped Parks</div>
+      <div><span>🏸</span>Badminton Court</div>
+      <div><span>🏀</span>Basketball Court</div>
+      <div><span>🧒</span>Kids Play Area</div>
+      <div><span>🛡️</span>24×7 Gated Security + CCTV</div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section class="alt" id="location">
+  <div class="container">
+    <div class="sec-title"><h2>📍 Location</h2></div>
+    <div class="calc">
+      <div class="panel">
+        <h3>Sector 2 &amp; 3, Pataudi</h3>
+        <ul class="list">
+          <li>NH-352W frontage par</li>
+          <li>Dwarka Expressway ~15 min</li>
+          <li>KMP ~5 min</li>
+        </ul>
+        <p style="margin-top:18px"><a class="btn" href="https://share.google/SayWJjICOiMdVS05U" target="_blank" rel="noopener">🗺️ Open Site Location</a></p>
+      </div>
+      <div class="panel">
+        <h3>Verify Registration</h3>
+        <p>Licence No. 134 of 2025</p>
+        <p>HARERA: RC/REP/HARERA/GGM/979/711/2025/82</p>
+        <p class="note">✅ HARERA ki website par khud verify karein.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="sec-title"><h2>Sampark Karein</h2></div>
+    <div class="grid">
+      <div class="box"><h3>📞 Details ke liye call karein</h3><a href="tel:+919911999981">99119 99981</a></div>
+      <div class="box"><h3>📝 Apply Online</h3><a href="#apply-form">Application Form Bharein</a></div>
+      <div class="box"><h3>📍 Site Location</h3><a href="https://share.google/SayWJjICOiMdVS05U" target="_blank" rel="noopener">Google Maps par dekhein</a></div>
+    </div>
+    <p style="margin-top:26px;font-size:18px">🙏 Aapka din shubh ho!</p>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="disc"><b>Disclaimer:</b> Yeh VK &amp; Sons Buildwell Pvt. Ltd. ke project VKS Pine Drive ka private promotional page hai. Yeh kisi sarkari vibhag ki official website nahi hai. Prices, dates aur offers badal sakte hain; GST as applicable. Kripya HARERA website par registration verify karein aur final details developer se confirm karein.</div>
+    © 2026 Marketing Agency · Licence No. 134 of 2025 · HARERA: RC/REP/HARERA/GGM/979/711/2025/82
+  </div>
+</footer>
+
+<a class="float" href="tel:+919911999981">📞 Call Now</a>
+
+<script>
+// Countdown to 26 Nov 2026, 23:59 IST
+const end = new Date("2026-11-26T23:59:59+05:30").getTime();
+function tick(){
+  let diff = end - Date.now();
+  if(diff < 0) diff = 0;
+  const pad = n => String(n).padStart(2,"0");
+  document.getElementById("d").textContent = pad(Math.floor(diff/864e5));
+  document.getElementById("h").textContent = pad(Math.floor(diff%864e5/36e5));
+  document.getElementById("m").textContent = pad(Math.floor(diff%36e5/6e4));
+  document.getElementById("s").textContent = pad(Math.floor(diff%6e4/1e3));
+}
+tick(); setInterval(tick,1000);
+
+// Price estimator
+const inr = n => "₹" + Math.round(n).toLocaleString("en-IN");
+function calc(){
+  const base = +document.getElementById("floor").value;
+  const disc = document.getElementById("resv").checked ? base*0.025 : 0;
+  const net = base - disc, gst = net*0.05;
+  r1.textContent = inr(base); r2.textContent = disc ? "− "+inr(disc) : "—";
+  r3.textContent = inr(gst); r4.textContent = inr(net+gst);
+}
+floor.onchange = resv.onchange = calc; calc();
+
+// WhatsApp callback
+async function sendWA(e){
+  e.preventDefault();
+  const btn = document.querySelector("#cb button");
+  btn.disabled = true; btn.textContent = "Sending...";
+  try{
+    const r = await fetch("/api/lead",{
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({name:nm.value, phone:ph.value, website:document.getElementById("hp").value})
+    });
+    const j = await r.json();
+    if(!j.ok) throw new Error(j.error||"Failed");
+    btn.textContent = "✔ Request bhej di gayi";
+    document.getElementById("cb").reset();
+  }catch(err){
+    // fallback: open WhatsApp so the lead is never lost
+    const msg = encodeURIComponent("Namaste, VKS Pine Drive ke baare mein jaankari chahiye.\nNaam: "+nm.value+"\nMobile: "+ph.value);
+    window.open("https://wa.me/919911999981?text="+msg,"_blank");
+    btn.textContent = "Send again";
+  }
+  btn.disabled = false;
+  return false;
+}
+
+// Application form -> /api/lead
+async function submitApply(e){
+  e.preventDefault();
+  const btn=document.getElementById("a_btn"), msg=document.getElementById("a_msg");
+  btn.disabled=true; btn.textContent="Submit ho raha hai...";
+  msg.className="note";
+  try{
+    const r=await fetch("/api/lead",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({
+      type:"application",
+      name:a_name.value, phone:a_phone.value, email:a_email.value, city:a_city.value,
+      floor:a_floor.value, category:a_cat.value, consent:a_ok.checked,
+      website:document.getElementById("a_hp").value
+    })});
+    const j=await r.json();
+    if(!j.ok) throw new Error(j.error||"Failed");
+    msg.textContent="✔ Application mil gayi. Hamari team jald hi aapse sampark karegi.";
+    msg.className="note ok";
+    document.getElementById("af").reset();
+  }catch(err){
+    msg.textContent="Submit nahi ho paya. Kripya dobara koshish karein ya 99119 99981 par call karein.";
+    msg.className="note err";
+  }
+  btn.disabled=false; btn.textContent="Application Submit Karein";
+  return false;
+}
+
+// Application popup
+(function(){
+  const m=document.getElementById("applyModal"), body=document.body;
+  let last=null;
+  function openM(e){ if(e) e.preventDefault(); last=document.activeElement; m.hidden=false; body.classList.add("modal-open"); setTimeout(()=>document.getElementById("a_name").focus(),50); }
+  function closeM(){ m.hidden=true; body.classList.remove("modal-open"); if(last&&last.focus) last.focus(); }
+  document.querySelectorAll('a[href="#apply-form"]').forEach(a=>a.addEventListener("click",openM));
+  document.getElementById("applyClose").addEventListener("click",closeM);
+  m.addEventListener("click",e=>{ if(e.target===m) closeM(); });
+  document.addEventListener("keydown",e=>{ if(e.key==="Escape"&&!m.hidden) closeM(); });
+  if(location.hash==="#apply-form") openM();
+})();
+</script>
+</body>
+</html>
